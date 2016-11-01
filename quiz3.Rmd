@@ -1,0 +1,45 @@
+---
+title:  "6060 Practice: RMarkdown"
+author: "Parco Sin"
+output:
+  pdf_document:
+    number_sections: yes
+    toc_depth: 3
+---
+
+```{r,echo=FALSE,message=FALSE, warning=FALSE}
+# Code goes in blocks like this
+
+# load libraries
+library(tidyverse)
+library(apaTables)
+
+```
+
+# Comparing the correlation between (A1, C1) to the correlation between (E1, O1).
+
+The comparison for the correlations between A1,C1 and E1,O1 was $\Delta r$ = -.001, 95% CI [-.11,.09], *n* = 759. 
+
+# Comparing the correlation between (A1, C1) to the correlation between (A1, E1).
+
+The comparison for the correlations between A1,C1 and A1,E1 was $\Delta r$ = -.080, 95% CI [-.18,.02], *n* = 764. 
+
+# Comparing the (A1,E1) correlations for men and women.
+
+The comparison for the correlations between A1,E1 between men and women was $\Delta r$ = .017, 95% CI [-.13,.16], *n* = 251 for men and *n* = 518 for women. 
+
+# Comparing Rating-Raises correlation with Rating-Critical Correlation
+
+The comparison for the correlations between ratings and raises and ratings and critical was $\Delta r$ = .43, 95% CI [.07,.79], N = 30. 
+
+# Comparing Rating-Raises correlation with complaints-Critical Correlation
+
+The comparison for the correlations between ratings and raises and complaints and critical was $\Delta r$ = .40, 95% CI [.01,.78], N = 30. 
+
+# Rating-raises correlation differs with a rating-raises correlation with r=.03, N = 3000
+
+The original correlation is 0.03 - with a prediction interval 95% PI[-.34, .39] based a replication sample size of N = 3000. If the replication correlation differs from the original correlation only due to sampling error, there is a 95% chance the replication result will fall in this interval. If the replication correlation falls outside of this range, factors beyond sampling error are likely also responsible for the difference.
+
+# Conclusion from #6
+
+The original correlation between ratings and raises was r = .59, 95% CI [.29,.78], N=30. The correlation of the second study between ratings and raises was r = .03 [-.34, .39], N=3000. The second study had a much larger *N* value, which suggests that researchers may want to value the results from the second study more heavily. In this case, we cannot say there is an effect between ratings and raises, since the confidence intervals for the second study are spread far above and beyond 0. Furthermore, the replication correlation does not fall out of the replication range. Therefore, we do not suspect that there are factors beyond sampling error. 
