@@ -1,7 +1,7 @@
 library(tidyverse)
 library(apaTables)
 library(cocor)
-library(predictionInterval)
+
 
 #Load Data
 bfi <- read_csv("bfi2.csv")
@@ -32,7 +32,7 @@ n <- 30
 
 cocor.dep.groups.overlap(r.jk, r.jh, r.kh, n)
 
-##Comparing Rating-Raises correlation with complaints-Critical Correlation
+#5 Comparing Rating-Raises correlation with complaints-Critical Correlation
 r.jk <- .59
 r.hm <- .19
 r.jh <- .83
@@ -43,18 +43,6 @@ n <- 30
 
 cocor.dep.groups.nonoverlap(r.jk, r.hm, r.jh, r.jm, r.kh, r.km, n)
 
-## run a replication of the study
-pi.r(r=.43,n=30,rep.n=100)
+#6 
+pi.r(r=.03,n=30,rep.n=3000)
 
-## figure out replication sample size with PI less than 0.5 difference
-pi.r(r=.43,n=30,rep.n=100)
-pi.r(r=.43,n=30,rep.n=1000)
-pi.r(r=.43,n=30,rep.n=10000)
-
-## Comparing correlations from 2 papers
-r1.jk <- .43
-r2.hm <- .10
-n1=30
-n2=1000
-
-cocor.indep.groups(r1.jk, r2.hm, n1, n2)
