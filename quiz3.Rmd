@@ -18,23 +18,23 @@ library(apaTables)
 
 # Comparing the correlation between (A1, C1) to the correlation between (E1, O1).
 
-The comparison for the correlations between A1,C1 and E1,O1 was $\Delta r$ = -.001, 95% CI [-.11,.09], *n* = 759. 
+The comparison for the correlations between A1,C1 and E1,O1 was $\Delta r$ = -.001, 95% CI [-.11,.09], *n* = 759. The confidence interval is consistent with anywhere between a weak negative and weak positive relationship.
 
 # Comparing the correlation between (A1, C1) to the correlation between (A1, E1).
 
-The comparison for the correlations between A1,C1 and A1,E1 was $\Delta r$ = -.080, 95% CI [-.18,.02], *n* = 764. 
+The comparison for the correlations between A1,C1 and A1,E1 was $\Delta r$ = -.080, 95% CI [-.18,.02], *n* = 764. The confidence interval is consistent with anywhere between a weak negative and weak positive relationship.
 
 # Comparing the (A1,E1) correlations for men and women.
 
-The comparison for the correlations between A1,E1 between men and women was $\Delta r$ = .017, 95% CI [-.13,.16], *n* = 251 for men and *n* = 518 for women. 
+The comparison for the correlations between A1,E1 between men and women was $\Delta r$ = .017, 95% CI [-.13,.16], *n* = 251 for men and *n* = 518 for women. The confidence interval is consistent with anywhere between a weak negative and weak positive relationship.
 
 # Comparing Rating-Raises correlation with Rating-Critical Correlation
 
-The comparison for the correlations between ratings and raises and ratings and critical was $\Delta r$ = .43, 95% CI [.07,.79], N = 30. 
+The comparison for the correlations between ratings and raises and ratings and critical was $\Delta r$ = .43, 95% CI [.07,.79], N = 30. The confidence interval is consistent with anywhere between a weak positive and moderately strong positive relationship.
 
 # Comparing Rating-Raises correlation with complaints-Critical Correlation
 
-The comparison for the correlations between ratings and raises and complaints and critical was $\Delta r$ = .40, 95% CI [.01,.78], N = 30. 
+The comparison for the correlations between ratings and raises and complaints and critical was $\Delta r$ = .40, 95% CI [.01,.78], N = 30. The confidence interval is consistent with anywhere between a weak positive and moderately strong positive relationship.
 
 # Rating-raises correlation differs with a rating-raises correlation with r=.03, N = 3000
 
